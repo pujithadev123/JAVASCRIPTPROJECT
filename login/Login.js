@@ -18,6 +18,6 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
   setTimeout(() => {
     alert("logged successfully.....")
-    window.location.href = '../Code/index.html';
+    window.location.href = '../code/index.html';
   }, 1000);
 });
