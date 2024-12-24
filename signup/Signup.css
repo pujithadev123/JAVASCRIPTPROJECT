@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+.success {
+  color: green;
+  font-size: 1em;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #f8c291, #6a89cc);
+}
+#registrationForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  height: 60vh;
+  border: 2px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 0 10px pink, 0 0 10px pink;
+  backdrop-filter: blur(40px);
+}
+input[type="text"] {
+  width: 80%;
+  height: 10%;
+}
+input[type="email"] {
+  width: 80%;
+  height: 10%;
+}
+input[type="password"] {
+  width: 80%;
+  height: 10%;
+}
+button[type="submit"] {
+  width: 80%;
+  height: 10%;
+  background-color: green;
+  border: none;
+}
+@media screen and (max-width: 768px) {
+  .error {
+    color: red;
+    font-size: 0.9em;
+  }
+  .success {
+    color: green;
+    font-size: 1em;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #f8c291, #6a89cc);
+  }
+  #registrationForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 65vh;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    backdrop-filter: blur(40px);
+    font-size: 0.9rem;
+  }
+  input[type="text"] {
+    width: 80%;
+    height: 10%;
+  }
+  input[type="email"] {
+    width: 80%;
+    height: 10%;
+  }
+  input[type="password"] {
+    width: 80%;
+    height: 10%;
+  }
+  button[type="submit"] {
+    width: 80%;
+    height: 10%;
+    background-color: green;
+    border: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .error {
+    color: red;
+    font-size: 0.9em;
+  }
+  .success {
+    color: green;
+    font-size: 1em;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #f8c291, #6a89cc);
+  }
+  #registrationForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    height: 66vh;
+    border-radius: 10px;
+    backdrop-filter: blur(40px);
+    font-size: 0.9rem;
+    box-shadow: 0 0 10px pink, 0 0 10px pink;
+  }
+  #text {
+    font-size: 1rem;
+    text-align: center;
+  }
+  input[type="text"] {
+    width: 80%;
+    height: 10%;
+  }
+  input[type="email"] {
+    width: 80%;
+    height: 10%;
+  }
+  input[type="password"] {
+    width: 80%;
+    height: 10%;
+  }
+  button[type="submit"] {
+    width: 80%;
+    height: 10%;
+    background-color: green;
+    border: none;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .error {
+    color: red;
+    font-size: 0.9em;
+  }
+  .success {
+    color: green;
+    font-size: 1em;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #f8c291, #6a89cc);
+  }
+  #registrationForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 38vw;
+    height: 66vh;
+    border-radius: 10px;
+    backdrop-filter: blur(40px);
+    font-size: 0.9rem;
+    box-shadow: 0 0 10px pink, 0 0 10px pink;
+  }
+  #text {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  input[type="email"] {
+    width: 80%;
+    height: 10%;
+  }
+  input[type="password"] {
+    width: 80%;
+    height: 10%;
+  }
+  button[type="submit"] {
+    width: 80%;
+    height: 10%;
+    background-color: green;
+    border: none;
+  }
+}

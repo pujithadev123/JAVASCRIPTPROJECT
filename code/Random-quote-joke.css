@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #f8c291, #6a89cc);
+}
+h2{
+  text-align: center;
+}
+#jokebtn {
+  border: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  background-color: lightsalmon;
+}
+#jokebtn:hover,
+#quotesbtn:hover {
+  background: linear-gradient(135deg, #f8c291, #6a89cc);
+  cursor: pointer;
+}
+#quotesbtn {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: lightcoral;
+}
+#quote {
+  background-color: rgba(0, 0, 0, 0.685);
+  width: 50vw;
+  height: fit-content;
+  color: white;
+}
+#joke {
+  background-color: rgba(0, 0, 0, 0.685);
+  width: 50vw;
+  height: fit-content;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #f8c291, #6a89cc);
+  }
+  h2{
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  #text {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  #jokebtn {
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: lightsalmon;
+    font-size: 0.9rem;
+  }
+  #jokebtn:hover,
+  #quotesbtn:hover {
+    background: linear-gradient(135deg, #f8c291, #6a89cc);
+    cursor: pointer;
+  }
+  #quotesbtn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: lightcoral;
+  }
+  #quote {
+    background-color: rgb(116, 110, 110);
+    width: 50vw;
+    height: fit-content;
+    color: white;
+    font-size: 0.5rem;
+    padding: 10px;
+    word-spacing: 2px;
+  }
+  #joke {
+    background-color: rgb(116, 110, 110);
+    width: 50vw;
+    height: fit-content;
+    color: white;
+    font-size: 0.5rem;
+    padding: 10px;
+    word-spacing: 2px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #f8c291, #6a89cc);
+  }
+  h2{
+    text-align: center;
+    font-size: 1rem;
+  }
+  #text {
+    font-size: 1rem;
+    text-align: center;
+  }
+  #jokebtn {
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: lightsalmon;
+    font-size: 1rem;
+  }
+  #jokebtn:hover,
+  #quotesbtn:hover {
+    background: linear-gradient(135deg, #f8c291, #6a89cc);
+    cursor: pointer;
+  }
+  #quotesbtn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: lightcoral;
+  }
+  #quote {
+    background-color: rgb(116, 110, 110);
+    width: 50vw;
+    height: fit-content;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    word-spacing: 2px;
+  }
+  #joke {
+    background-color: rgb(116, 110, 110);
+    width: 50vw;
+    height: fit-content;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    word-spacing: 2px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #f8c291, #6a89cc);
+  }
+  h2{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  #text {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  #jokebtn {
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: lightsalmon;
+    font-size: 1rem;
+  }
+  #jokebtn:hover,
+  #quotesbtn:hover {
+    background: linear-gradient(135deg, #f8c291, #6a89cc);
+    cursor: pointer;
+  }
+  #quotesbtn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: lightcoral;
+    font-size: 1rem;
+  }
+  #quote {
+    background-color: rgb(116, 110, 110);
+    width: 50vw;
+    height: fit-content;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    word-spacing: 2px;
+  }
+  #joke {
+    background-color: rgb(116, 110, 110);
+    width: 50vw;
+    height: fit-content;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    word-spacing: 2px;
+  }
+}
