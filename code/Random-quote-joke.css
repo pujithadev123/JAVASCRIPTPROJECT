@@ -45,7 +45,13 @@ h2{
   height: fit-content;
   color: white;
 }
-
+#logoutbtn{
+  background-color: palevioletred;
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
 
 @media screen and (max-width: 768px) {
   body {
