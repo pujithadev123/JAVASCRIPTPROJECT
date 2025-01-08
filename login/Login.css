@@ -33,7 +33,10 @@ body {
   height: 60vh;
   border: 2px solid black;
   border-radius: 10px;
-  backdrop-filter: blur(40px);
+}
+input[type="text"] {
+  width: 80%;
+  height: 10%;
 }
 input[type="email"] {
   width: 80%;
@@ -80,15 +83,19 @@ button[type="submit"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30vw;
+    width: 33vw;
     height: 60vh;
     border: 2px solid black;
     border-radius: 10px;
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   #text {
     font-size: 0.9rem;
     text-align: center;
+  }
+  input[type="text"] {
+    width: 80%;
+    height: 10%;
   }
 
   input[type="email"] {
@@ -98,12 +105,6 @@ button[type="submit"] {
   input[type="password"] {
     width: 80%;
     height: 10%;
-  }
-  button[type="submit"] {
-    width: 80%;
-    height: 10%;
-    background-color: green;
-    border: none;
   }
   #guest{
     text-decoration: none;
@@ -138,8 +139,8 @@ button[type="submit"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 35vw;
-    height: 66vh;
+    width: 30vw;
+    height: 60vh;
     border: 2px solid black;
     border-radius: 10px;
     backdrop-filter: blur(40px);
@@ -196,7 +197,7 @@ button[type="submit"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30vw;
+    width: 34vw;
     height: 60vh;
     border: 2px solid black;
     border-radius: 10px;
@@ -209,6 +210,10 @@ button[type="submit"] {
   #text {
     font-size: 1.2rem;
     text-align: center;
+  }
+  input[type="text"] {
+    width: 80%;
+    height: 10%;
   }
 
   input[type="email"] {
