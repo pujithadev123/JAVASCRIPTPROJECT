@@ -42,7 +42,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     regPasswordError.textContent = 'Password is required.';
     isValid = false;
   } else if (regPassword.length < 6) {
-    regPasswordError.textContent = 'Password must be at least 6 characters.';
+    regPasswordError.textContent = 'Password must be at least 6 characters that include 1 uppercase,1 lowercase,1 number,1 special character.';
     isValid = false;
   }
 
@@ -51,10 +51,16 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     users.push({ name: regName, email: regEmail, password: regPassword });
     localStorage.setItem('users', JSON.stringify(users));
 
-    
-    setTimeout(() => {
-      alert("Registration successfull..")
-      window.location.href = '../login/index.html';
-    }, 1000);
-  }
+swal({
+  title: "Registration Successful!",
+  text:  "Do you want to proceed to the login page?",
+  icon: "success",
+  button: "OK",
+}).then(() => {
+  window.location.href = '../login/index.html';
 });
+}
+});
+
+
+

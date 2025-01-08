@@ -15,9 +15,14 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
   const users = JSON.parse(localStorage.getItem('users')) || [];
   const user = users.find(user => user.email === loginEmail);
-
-  setTimeout(() => {
-    alert("logged successfully.....")
+   
+  swal({
+    title: "Login Successful!",
+    text:  "Do you want to proceed to the Home page?",
+    icon: "success",
+    button: "OK",
+  }).then(() => {
     window.location.href = '../code/index.html';
-  }, 1000);
+  });
+  
 });

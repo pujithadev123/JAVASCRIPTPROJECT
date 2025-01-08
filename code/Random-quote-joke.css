@@ -8,7 +8,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
   height: 100vh;
   width: 100vw;
   background: linear-gradient(135deg, #f8c291, #6a89cc);
@@ -46,6 +46,7 @@ h2{
   color: white;
 }
 
+
 @media screen and (max-width: 768px) {
   body {
     display: flex;
@@ -59,7 +60,7 @@ h2{
   }
   h2{
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   #text {
     font-size: 0.9rem;
@@ -100,6 +101,13 @@ h2{
     font-size: 0.5rem;
     padding: 10px;
     word-spacing: 2px;
+  }
+  #logoutbtn{
+    background-color: palevioletred;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 20px;
   }
 }
 
@@ -116,7 +124,7 @@ h2{
   }
   h2{
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   #text {
     font-size: 1rem;
@@ -157,6 +165,13 @@ h2{
     font-size: 1rem;
     padding: 10px;
     word-spacing: 2px;
+  }
+  #logoutbtn{
+    background-color: palevioletred;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 20px;
   }
 }
 
@@ -173,7 +188,7 @@ h2{
   }
   h2{
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 2.5rem;
   }
   #text {
     font-size: 1.2rem;
@@ -215,5 +230,12 @@ h2{
     font-size: 1rem;
     padding: 10px;
     word-spacing: 2px;
+  }
+  #logoutbtn{
+    background-color: palevioletred;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 20px;
   }
 }

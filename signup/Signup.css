@@ -30,8 +30,11 @@ body {
   height: 60vh;
   border: 2px solid gray;
   border-radius: 10px;
-  box-shadow: 0 0 10px pink, 0 0 10px pink;
   backdrop-filter: blur(40px);
+}
+#registrationForm:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px pink, 0 0 10px pink;
 }
 input[type="text"] {
   width: 80%;
@@ -45,11 +48,26 @@ input[type="password"] {
   width: 80%;
   height: 10%;
 }
-button[type="submit"] {
+#signupbtn{
   width: 80%;
   height: 10%;
-  background-color: green;
+  background-color:lightblue;
   border: none;
+  border-radius: 10px;
+  padding: 6px;
+  
+}
+#guest{
+  width: 80%;
+  height: 10%;
+  background-color:pink;
+  border: none;
+  border-radius: 10px;
+  padding: 6px;
+}
+#guestbtn{
+  text-decoration: none;
+  text-align: center;
 }
 @media screen and (max-width: 768px) {
   .error {
@@ -75,12 +93,16 @@ button[type="submit"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30vw;
-    height: 65vh;
+    width: 33vw;
+    height: 60vh;
     border: 2px solid lightgrey;
     border-radius: 10px;
-    backdrop-filter: blur(40px);
-    font-size: 0.9rem;
+    font-size: 1rem;
+    padding: 20px 5px;
+  }
+  #registrationForm:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px pink, 0 0 10px pink;
   }
   input[type="text"] {
     width: 80%;
@@ -94,11 +116,26 @@ button[type="submit"] {
     width: 80%;
     height: 10%;
   }
-  button[type="submit"] {
+  #signupbtn{
     width: 80%;
     height: 10%;
-    background-color: green;
+    background-color:lightblue;
     border: none;
+    border-radius: 10px;
+    padding: 6px;
+    
+  }
+  #guest{
+    width: 80%;
+    height: 10%;
+    background-color:pink;
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+  }
+  #guestbtn{
+    text-decoration: none;
+    text-align: center;
   }
 }
 
@@ -126,11 +163,17 @@ button[type="submit"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 35vw;
-    height: 66vh;
+    width: 30vw;
+    height: 64vh;
     border-radius: 10px;
     backdrop-filter: blur(40px);
     font-size: 0.9rem;
+    padding: 10px;
+    max-height: fit-content;
+    
+  }
+  #registrationForm:hover{
+    transform: translateY(-5px);
     box-shadow: 0 0 10px pink, 0 0 10px pink;
   }
   #text {
@@ -140,20 +183,38 @@ button[type="submit"] {
   input[type="text"] {
     width: 80%;
     height: 10%;
+    padding: 2px;
   }
   input[type="email"] {
     width: 80%;
     height: 10%;
+    padding: 2px;
   }
   input[type="password"] {
     width: 80%;
     height: 10%;
+    padding: 2px;
   }
-  button[type="submit"] {
+  #signupbtn{
     width: 80%;
-    height: 10%;
-    background-color: green;
+    height: 15%;
+    background-color:lightblue;
     border: none;
+    border-radius: 10px;
+    padding: 6px;
+    
+  }
+  #guest{
+    width: 80%;
+    height: 15%;
+    background-color:pink;
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+  }
+  #guestbtn{
+    text-decoration: none;
+    text-align: center;
   }
 }
 
@@ -181,11 +242,15 @@ button[type="submit"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 38vw;
-    height: 66vh;
+    width: 30vw;
+    height: 65vh;
     border-radius: 10px;
     backdrop-filter: blur(40px);
     font-size: 0.9rem;
+    padding: 10px;
+  }
+  #registrationForm:hover{
+    transform: translateY(-5px);
     box-shadow: 0 0 10px pink, 0 0 10px pink;
   }
   #text {
@@ -195,16 +260,33 @@ button[type="submit"] {
 
   input[type="email"] {
     width: 80%;
-    height: 10%;
+    height: 25%;
+  }
+  input[type="text"] {
+    width: 80%;
+    height: 25%;
   }
   input[type="password"] {
     width: 80%;
-    height: 10%;
+    height: 25%;
   }
-  button[type="submit"] {
+  #signupbtn{
     width: 80%;
-    height: 10%;
-    background-color: green;
+    height: 25%;
+    background-color:lightblue;
     border: none;
+    border-radius: 10px;
+    
+  }
+  #guest{
+    width: 80%;
+    height: 25%;
+    background-color:pink;
+    border: none;
+    border-radius: 10px;
+  }
+  #guestbtn{
+    text-decoration: none;
+    text-align: center;
   }
 }
