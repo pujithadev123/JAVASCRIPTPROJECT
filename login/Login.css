@@ -22,8 +22,7 @@ body {
   gap: 10px;
   height: 100vh;
   width: 100vw;
-  /* background: linear-gradient(rgba(240, 150, 240, 0.986), rgb(250, 250, 94)); */
-  background-image: url(../laugh-2.jpg);
+  background-image: url(../images/laugh-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -79,8 +78,7 @@ button[type="submit"] {
     gap: 10px;
     height: 100vh;
     width: 100vw;
-    /* background: linear-gradient(rgba(240, 150, 240, 0.986), rgb(250, 250, 94)); */
-    background-image: url(../laugh-2.jpg);
+    background-image: url(../images/laugh-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -144,8 +142,7 @@ button[type="submit"] {
     gap: 10px;
     height: 100vh;
     width: 100vw;
-    /* background: linear-gradient(rgba(240, 150, 240, 0.986), rgb(250, 250, 94)); */
-    background-image: url(../laugh-2.jpg);
+    background-image: url(../images/laugh-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -205,8 +202,7 @@ button[type="submit"] {
     gap: 7px;
     height: 100vh;
     width: 100vw;
-    /* background: linear-gradient(rgba(240, 150, 240, 0.986), rgb(250, 250, 94)); */
-    background-image: url(../laugh-2.jpg);
+    background-image: url(../images/laugh-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
