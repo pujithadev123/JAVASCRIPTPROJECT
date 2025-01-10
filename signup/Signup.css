@@ -19,7 +19,10 @@ body {
   gap: 10px;
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(135deg, #f8c291, #6a89cc);
+  /* background: linear-gradient(135deg, #f8c291, #6a89cc); */
+  background-image: url(../laugh_img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #registrationForm {
   display: flex;
@@ -86,7 +89,10 @@ input[type="password"] {
     gap: 10px;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(135deg, #f8c291, #6a89cc);
+    /* background: linear-gradient(135deg, #f8c291, #6a89cc); */
+    background-image: url(../laugh_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   #registrationForm {
     display: flex;
@@ -156,7 +162,10 @@ input[type="password"] {
     gap: 10px;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(135deg, #f8c291, #6a89cc);
+    /* background: linear-gradient(135deg, #f8c291, #6a89cc); */
+    background-image: url(../laugh_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   #registrationForm {
     display: flex;
@@ -235,7 +244,10 @@ input[type="password"] {
     gap: 10px;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(135deg, #f8c291, #6a89cc);
+    /* background: linear-gradient(135deg, #f8c291, #6a89cc); */
+    background-image: url(../laugh_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   #registrationForm {
     display: flex;

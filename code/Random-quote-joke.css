@@ -11,10 +11,14 @@ body {
   gap: 15px;
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(135deg, #f8c291, #6a89cc);
+  /* background: linear-gradient(135deg, #f8c291, #6a89cc); */
+  background-image: url(../laugh-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 h2{
   text-align: center;
+  font-style: italic;
 }
 #jokebtn {
   border: none;
@@ -62,11 +66,15 @@ h2{
     gap: 10px;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(135deg, #f8c291, #6a89cc);
+    /* background: linear-gradient(135deg, #f8c291, #6a89cc); */
+    background-image: url(../laugh-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   h2{
     text-align: center;
     font-size: 1rem;
+    font-style: italic;
   }
   #text {
     font-size: 0.9rem;
@@ -126,11 +134,15 @@ h2{
     gap: 10px;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(135deg, #f8c291, #6a89cc);
+    /* background: linear-gradient(135deg, #f8c291, #6a89cc); */
+    background-image: url(../laugh-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   h2{
     text-align: center;
     font-size: 1.5rem;
+    font-style: italic;
   }
   #text {
     font-size: 1rem;
@@ -190,11 +202,15 @@ h2{
     gap: 10px;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(135deg, #f8c291, #6a89cc);
+    /* background: linear-gradient(135deg, #f8c291, #6a89cc); */
+    background-image: url(../laugh-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   h2{
     text-align: center;
     font-size: 2.5rem;
+    font-style: italic;
   }
   #text {
     font-size: 1.2rem;
