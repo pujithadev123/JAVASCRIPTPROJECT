@@ -18,7 +18,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
    
   swal({
     title: "Login Successful!",
-    text:  "Do you want to proceed to the Home page?",
+    text:  "Do you want to proceed to the next page?",
     icon: "success",
     button: "OK",
   }).then(() => {

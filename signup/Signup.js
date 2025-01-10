@@ -53,7 +53,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
 
 swal({
   title: "Registration Successful!",
-  text:  "Do you want to proceed to the login page?",
+  text:  "Do you want to proceed to the next page?",
   icon: "success",
   button: "OK",
 }).then(() => {
