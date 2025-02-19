@@ -33,6 +33,7 @@ body {
   border: 2px solid gray;
   border-radius: 10px;
   backdrop-filter: blur(40px);
+  padding: 10px;
 }
 #registrationForm:hover{
   transform: translateY(-5px);
@@ -97,49 +98,75 @@ input[type="password"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 33vw;
+    width: 39vw;
     height: 60vh;
     border: 2px solid lightgrey;
     border-radius: 10px;
-    font-size: 1rem;
+    font-size: 0.7rem;
     padding: 20px 5px;
   }
   #registrationForm:hover{
     transform: translateY(-5px);
     box-shadow: 0 0 10px pink, 0 0 10px pink;
   }
-  input[type="text"] {
-    width: 80%;
-    height: 10%;
+  .password-container {
+    position: relative;
+    width: 100%;
   }
-  input[type="email"] {
-    width: 80%;
-    height: 10%;
-  }
+  
+  input[type="email"],
+  input[type="text"],
   input[type="password"] {
-    width: 80%;
-    height: 10%;
+    width: 100%;
+    height: 35px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.5rem;
   }
-  #signupbtn{
-    width: 80%;
-    height: 10%;
-    background-color:lightblue;
+  
+  
+  #icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 0.7rem;
+    color:rgba(0, 0, 0, 0.726);
+  }
+  
+ 
+  #signupbtn,
+  #guest {
+    width: 100%;
+    height: 40px;
     border: none;
     border-radius: 10px;
-    padding: 6px;
-    
+    font-size: 0.7rem;
+    cursor: pointer;
   }
-  #guest{
-    width: 80%;
-    height: 10%;
-    background-color:pink;
-    border: none;
-    border-radius: 10px;
-    padding: 6px;
+  
+  #signupbtn {
+    background-color: lightblue;
   }
-  #guestbtn{
+  
+  #guest {
+    background-color: pink;
+  }
+  
+ 
+  #guestbtn {
     text-decoration: none;
     text-align: center;
+    color: black;
+    display: inline-block;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgb(189, 241, 138);
+    border: none;
+    line-height: 40px; 
   }
 }
 
@@ -176,7 +203,7 @@ input[type="password"] {
     font-size: 0.9rem;
     padding: 10px;
     max-height: fit-content;
-    
+    padding: 10px;
   }
   #registrationForm:hover{
     transform: translateY(-5px);
@@ -186,53 +213,80 @@ input[type="password"] {
     font-size: 1rem;
     text-align: center;
   }
-  input[type="text"] {
-    width: 80%;
-    height: 10%;
-    padding: 2px;
+
+  .password-container {
+    position: relative;
+    width: 100%;
   }
-  input[type="email"] {
-    width: 80%;
-    height: 10%;
-    padding: 2px;
-  }
+  
+  input[type="email"],
+  input[type="text"],
   input[type="password"] {
-    width: 80%;
-    height: 10%;
+    width: 100%;
+    height: 35px;
     padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
   }
-  #signupbtn{
-    width: 80%;
-    height: 15%;
-    background-color:lightblue;
+  
+  
+  #icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: gray;
+  }
+  
+ 
+  #signupbtn,
+  #guest {
+    width: 100%;
+    height: 40px;
     border: none;
     border-radius: 10px;
-    padding: 6px;
-    
+    font-size: 1rem;
+    cursor: pointer;
   }
-  #guest{
-    width: 80%;
-    height: 15%;
-    background-color:pink;
-    border: none;
-    border-radius: 10px;
-    padding: 6px;
+  
+  #signupbtn {
+    background-color: lightblue;
   }
-  #guestbtn{
+  
+  #guest {
+    background-color: pink;
+  }
+  
+ 
+  #guestbtn {
     text-decoration: none;
     text-align: center;
+    color: black;
+    display: inline-block;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgb(189, 241, 138);
+    border: none;
+    line-height: 40px; 
   }
+
 }
 
 @media screen and (min-width: 1025px) {
+  
   .error {
     color: red;
     font-size: 0.9em;
   }
+  
   .success {
     color: green;
     font-size: 1em;
   }
+  
   body {
     display: flex;
     flex-direction: column;
@@ -245,6 +299,7 @@ input[type="password"] {
     background-size: cover;
     background-repeat: no-repeat;
   }
+  
   #registrationForm {
     display: flex;
     flex-direction: column;
@@ -255,46 +310,76 @@ input[type="password"] {
     border-radius: 10px;
     backdrop-filter: blur(40px);
     font-size: 0.9rem;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); 
     padding: 10px;
   }
-  #registrationForm:hover{
+  
+  #registrationForm:hover {
     transform: translateY(-5px);
     box-shadow: 0 0 10px pink, 0 0 10px pink;
   }
-  #text {
-    font-size: 1.2rem;
-    text-align: center;
-  }
+  
 
-  input[type="email"] {
-    width: 80%;
-    height: 25%;
+  .password-container {
+    position: relative;
+    width: 100%;
   }
-  input[type="text"] {
-    width: 80%;
-    height: 25%;
-  }
+  
+  input[type="email"],
+  input[type="text"],
   input[type="password"] {
-    width: 80%;
-    height: 25%;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
   }
-  #signupbtn{
-    width: 80%;
-    height: 25%;
-    background-color:lightblue;
+  
+
+  #icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: gray;
+  }
+  
+ 
+  #signupbtn,
+  #guest {
+    width: 100%;
+    height: 40px;
     border: none;
     border-radius: 10px;
-    
+    font-size: 1rem;
+    cursor: pointer;
   }
-  #guest{
-    width: 80%;
-    height: 25%;
-    background-color:pink;
-    border: none;
-    border-radius: 10px;
+  
+  #signupbtn {
+    background-color: lightblue;
   }
-  #guestbtn{
+  
+  #guest {
+    background-color: pink;
+  }
+  
+ 
+  #guestbtn {
     text-decoration: none;
     text-align: center;
+    color: black;
+    display: inline-block;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgb(189, 241, 138);
+    border: none;
+    line-height: 40px; 
   }
+  
+ 
+
 }

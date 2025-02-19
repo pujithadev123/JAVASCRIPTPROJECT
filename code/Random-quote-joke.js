@@ -3,6 +3,20 @@ const text=typewriter.textContent;
 typewriter.textContent=" "
 let index=0
 
+let icon=document.querySelector("i")
+function a(){
+    if(icon.className === "fa-solid fa-sun"){
+        icon.className="fa-solid fa-moon"
+        document.body.style.backgroundColor="black"
+        document.body.style.color="white"
+
+    }
+    else{
+        icon.className="fa-solid fa-sun"
+        document.body.style.backgroundColor="white"
+        document.body.style.color="black"
+    }
+}
 function typeEffect(){
     if(index<text.length){
         typewriter.textContent+=text.charAt(index)
