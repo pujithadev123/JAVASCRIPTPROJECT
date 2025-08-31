@@ -21,7 +21,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     isValid = false;
   }
 
-  const emailPattern = const passwordPattern =
+  const emailPattern = 
   /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
 ;
   if (regEmail === '') {
