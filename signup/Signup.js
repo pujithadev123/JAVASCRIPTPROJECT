@@ -21,8 +21,8 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     isValid = false;
   }
 
-  const emailPattern = 
-  /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+  const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
 ;
   if (regEmail === '') {
     regEmailError.textContent = 'Email is required.';
