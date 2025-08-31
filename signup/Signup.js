@@ -32,7 +32,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     isValid = false;
   }
 
-const passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$#!%*?&]{8,}$/;
+const passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$!%*?&])[A-Za-z\d@$#!%*?&]{8,}$/;
   if (regPassword === '') {
     regPasswordError.textContent = 'Password is required.';
     isValid = false;
