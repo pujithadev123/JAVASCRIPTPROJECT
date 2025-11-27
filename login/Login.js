@@ -38,7 +38,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         icon: "success",
         confirmButtonText: "OK"
       }).then(() => {
-        window.location.href = '../home/index.html'; // 👈 go to home page
+        window.location.href = '../code/index.html'; // 👈 go to home page
       });
     } else {
       // ❌ Wrong credentials
